@@ -166,7 +166,7 @@ Here is a suggested stronger password: qwer0tYui0op@!
 
 
 ## Testing
-Starting with this programming assignment, there will be some testers that are initially hidden. To help you test your code, the following table shows descriptions of public and private testers. It is your responsibility to test your program comprehensively. 
+Starting with this programming assignment, there will be some testers that are initially hidden. The table of test cases will be releasesd along with the Autograder.
 
 ## Submission
 Submit the following file(s) to Gradescope by **Thursday, Oct 13 @ 11:59PM PDT**.
