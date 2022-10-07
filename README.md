@@ -166,7 +166,16 @@ Here is a suggested stronger password: qwer0tYui0op@!
 
 
 ## Testing
-Starting with this programming assignment, there will be some testers that are initially hidden. The table of test cases will be releasesd along with the Autograder.
+Starting with this programming assignment, there will be some testers that are initially hidden. To help you test your code, the following table shows the public and private test cases. It is your responsibility to test your program comprehensively. 
+
+| **Test Cases** | **Public Tests**                                                                                                                                                             | **Private Tests**                                                                                                                               |
+|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| TestExamples   | `12345678`<br>`paulcao<3`<br>`PASSWORD???`<br>`cse11`<br>`e&@!Ksn#6$vq59DV`<br>`StartEarlyStartOften!!`<br>`J&*&*&*&*&*&*&*`<br>`qwertyuiop`                                                 | N/A                                                                                                                                             |
+| TestShort      | `xLi7t%$`                                                                                                                                                                      | `%`<br>Empty String (directly hitting enter)                                                                                                      |
+| TestStrong     | `mDWqcYF99qu4@3ojt#2&`<br>`thequ1ckbrownfoxjumpedoverthel@zyDOG`                                                                                                                 | `aaaaaaaaaaaaaaaaaaaaaaaaaaaaaZ&0`<br>`ZZZZZZ00000~~~~~~~aaaaaaaaaa`                                                               |
+| TestMedium     | `password123!`<br>`PASSWORD123!`<br>`Password!`<br>`Password123`<br>`a1234567890{}`<br>`*22searz`<br>`yxw22228&`<br>`brisk88ball$`<br>`U1234567890{}`<br>`GIRAFFE311#`<br>`sand+Man`<br>`Fifteen==length` | `12345a67890{}`<br>`1234567890{}a`<br>`100bananana<`<br>`fool55!!`<br>`1234567U890{}`<br>`1234567890{}U`<br>`1234567890{}UU`<br> `!1234BREAK431`<br>`5067^BARBEQUE`<br>`zebraLuvrrr<<` <br> `twenty-fiveIsStringLength`|
+| TestWeak       | `2cool4school`<br>`prettyplease!!!`<br>`A1234567`<br>`STARTEARLYSTARTOFTEN!!!`                                                                                                       | `1x000000`<br>`a!!!!!!!!`<br>`AB123456`<br>`A!@#$%^&`<br>`10+50=60`                                                                                       |
+| TestVeryWeak   | `PASSWORD`                                                                                                                                                                     | `password`<br>`!?!?!?!?`<br>`9999999999999999999999999999999`                                                                                         |
 
 ## Submission
 Submit the following file(s) to Gradescope by **Thursday, Oct 13 @ 11:59PM PDT**.
