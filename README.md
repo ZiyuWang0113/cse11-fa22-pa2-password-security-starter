@@ -96,8 +96,8 @@ Password strength: weak
 Here is a suggested stronger password: pASS1WORD1???
 ```
 *Rules 2 and 4 were applied.
-Since the original password's length is 11, $k=11$ $mod$ $10=1$
-The digit $1$ is inserted every 4 characters.*
+Since the original password's length is 11,* $k=11$ $mod$ $10=1$
+*The digit* $1$ *is inserted every 4 characters.*
 
 
 #### Additional Implementation Requirements
