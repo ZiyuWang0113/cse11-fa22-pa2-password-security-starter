@@ -65,7 +65,7 @@ If the user's password is not considered "Strong" by our evaluation model, we wi
 3. If there are no uppercase letters, change the **last occurrence** of the highest-ASCII-valued lowercase character to uppercase.
 4. If there are no numbers, insert $k$ into the **current password** every 4 characters, where $k$ is the **original length** of the password mod 10.
 *If the orginal length is divisible by 4,* $k$ *should be inserted at the very end as well.*
-6. If there are no symbols, **append** `@!` to the current password.
+5. If there are no symbols, **append** `@!` to the current password.
 
 *Note that only up to one of Rules 1-3 should apply to a given password.*
 
